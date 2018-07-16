@@ -39,7 +39,7 @@ We're using Ubuntu 18.04 instead of the officially supported 16.04 because HiDPI
 
 It also mounts `~/radiodev` to the home directory of the container's primary user, which is named radiodev. This is to save persistent configurations for our SDR software.
 
-The container drops priviledges to 1000:1000 (default user in Red Hat based distros). It runs with priviledges to get the USB and X11 stuff to work; this could probably be improved. In any case, the processes it launches do not run as root.
+The container drops to user 1000:1000 when it starts (default user in Red Hat based distros). The container runs in privileged mode to get the USB and X11 stuff to work, but the processes it launches do not run as root. We could probably do this without launching the container as root, but I haven't figured it out yet.
 
 This has been tested on recent versions of Fedora. There's no reason why it wouldn't work on other distributions, but I haven't tested them.
 
