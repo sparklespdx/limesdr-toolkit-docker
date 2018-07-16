@@ -9,6 +9,6 @@ sudo docker run \
   -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
   -v /run/user/1000/pulse:/run/user/1000/pulse \
   -v ~/radiodev:/home/radiodev \
-  sdr-toolkit "$@"
+  limesdr-toolkit "$@"
   #-v ~/.config/gqrx:/home/radiodev/.config/gqrx \
   #-v ~/.gnuradio:/home/radiodev/gnuradio \

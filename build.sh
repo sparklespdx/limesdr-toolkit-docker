@@ -1,1 +1,1 @@
-sudo docker build -t sdr-toolkit .
+sudo docker build -t limesdr-toolkit .
