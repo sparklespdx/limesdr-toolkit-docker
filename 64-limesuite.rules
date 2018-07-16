@@ -1,0 +1,6 @@
+SUBSYSTEM=="usb", ATTR{idVendor}=="04b4", ATTR{idProduct}=="8613", MODE="660"
+SUBSYSTEM=="usb", ATTR{idVendor}=="04b4", ATTR{idProduct}=="00f1", MODE="660"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0403", ATTR{idProduct}=="601f", MODE="660"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1d50", ATTR{idProduct}=="6108", MODE="660", GROUP="developer"
+SUBSYSTEM=="usb_device", ATTR{idVendor}=="1d50", ATTR{idProduct}=="6108", MODE="660", GROUP="developer"
+SUBSYSTEM=="xillybus", MODE="666", OPTIONS="last_rule"
