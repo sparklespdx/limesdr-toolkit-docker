@@ -44,13 +44,13 @@ This has been tested on recent versions of Fedora. There's no reason why it woul
 
 ## FAQ
 
-##### Will this run on Docker for Mac?
+### Will this run on Docker for Mac?
 
 Short answer: no.
 
 Long answer: Docker for Mac runs a Linux VM using Hyperkit, which doesn't have USB forwarding support. There's an old version of Docker for Mac that runs on Virtualbox which might possibly work, or you could roll your own Docker host VM in a hypervisor that supports USB forwarding. I cannot support these use cases and I don't recommend trying; my experience with Virtualbox on Macs leaves something to be desired when it comes to performance and performance is pretty critical to this application. I've basically given up on running gnuradio software on OSX for now. Maybe I'll try again with SDRAngel.
 
-##### Will this run on (some version of Linux that isn't Fedora 25)?
+### Will this run on (some version of Linux that isn't Fedora 25)?
 
 I don't know. Probably. Try it out and let me know how it goes.
 
