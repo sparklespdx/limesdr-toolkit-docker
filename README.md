@@ -28,7 +28,7 @@ I'm hoping that doing this work will make it simple and easy for another person 
 
 ## Notes
 
-The first thing you should do when you build the container is run `volk profile`. This will increase performance significantly. By default this configuration is saved to ~/radiodev on the host.
+The first thing you should do when you build the container is run `volk_profile`. This will increase performance significantly. By default this configuration is saved to ~/radiodev on the host.
 
 We're using Ubuntu 18.04 instead of the officially supported 16.04 because HiDPI support isn't included in the versions of QT that are officially available in 16.04, and HiDPI support is a requirement for me. If you have a HiDPI display, you need to set `QT_SCALE_FACTOR` in your host environment. 1.4 works well for me. For more information, see https://wiki.archlinux.org/index.php/HiDPI
 
