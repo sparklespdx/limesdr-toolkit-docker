@@ -16,6 +16,7 @@ Instead of trying to troubleshoot a Fedora build for LimeSuite and Soapy and wri
 I'm hoping that doing this work will make it simple and easy for another person to run a couple commands and get their LimeSDR up and running on the host distro that they prefer.
 
 ## Getting Started
+* Make sure the Docker daemon is installed and running.
 
 * Make sure your user has a uid and gid of 1000 or edit `run.sh` and `build.sh` to match your uid and gid. NOTE: I'm gonna fix this.
 
