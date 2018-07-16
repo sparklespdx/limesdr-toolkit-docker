@@ -41,8 +41,6 @@ It also mounts `~/radiodev` to the home directory of the container's primary use
 
 The container drops to user 1000:1000 when it starts (default user in Red Hat based distros). The container runs in privileged mode to get the USB and X11 stuff to work, but the processes it launches do not run as root. We could probably do this without launching the container as root, but I haven't figured it out yet.
 
-This has been tested on recent versions of Fedora. There's no reason why it wouldn't work on other distributions, but I haven't tested them.
-
 ## FAQ
 
 ### Will this run on Docker for Mac?
