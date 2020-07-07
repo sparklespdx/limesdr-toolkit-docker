@@ -19,6 +19,7 @@ RUN add-apt-repository -y ppa:myriadrf/drivers && \
 #RUN apt-get -y install gqrx-sdr
 RUN apt-get -y install gqrx-sdr soapysdr-tools soapysdr-module-lms7
 
+
 # Build deps
 # TODO: Validate
 RUN apt-get install -y cmake g++ libpython-dev python-numpy swig \
