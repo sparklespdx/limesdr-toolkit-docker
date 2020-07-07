@@ -10,6 +10,7 @@ RUN \
 # PPAs
 RUN add-apt-repository -y ppa:myriadrf/drivers && \
     add-apt-repository -y ppa:myriadrf/gnuradio && \
+    add-apt-repository -y ppa:bladerf/bladerf && \
     add-apt-repository -y ppa:gqrx/gqrx-sdr && \
     apt-get -y update
 
@@ -17,7 +18,6 @@ RUN add-apt-repository -y ppa:myriadrf/drivers && \
 # TODO: Install both from source so we can be more portable.
 #RUN apt-get -y install gqrx-sdr
 RUN apt-get -y install gqrx-sdr soapysdr-tools soapysdr-module-lms7
-
 
 # Build deps
 # TODO: Validate
